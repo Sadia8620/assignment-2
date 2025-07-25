@@ -462,4 +462,120 @@ footer{
     font-size: 0.95rem;
     padding-bottom: 10px;
   }
+  .part5{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 730px;
+  }
+  .part5 h1{
+    font-size: 1.3rem;
+  }
+  .part5 p{
+    font-size: 0.97rem;
+    margin-bottom: 100px;
+  }
+ 
+.part6 {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    position: relative;
+    margin-top: 700px;
+    padding-bottom: 200px;
+  }
+
+  .tow {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .bloom,
+  .ana,
+  .one {
+    width: 90%;
+    height: 180px;
+    padding: 30px 20px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bloom h3,
+  .ana h3,
+  .one h2 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .bloom a,
+  .ana a,
+  .one a {
+    font-size: 1rem;
+    text-align: center;
+  }
+.one{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10px;
+  position: relative;
+  top: 75px;
+  height: 180px;
+  padding-bottom: 100px;
+}
+
+.part7{
+  position: relative;
+  margin-top: 150px;
+  width: 100%;
+  height: 275px;
+  margin-bottom: 50px;
+}
+
+.input  input{
+    width: 218px;
+    height: 50px;
+    
+  }
+
+  .input button {
+    width: 103px;
+    height: 50px;
+  }
+
+  .part7 h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  footer{
+    display: inline-block;
+    margin-top: -30px;
+    padding-left: 20px;
+    height: 600px;
+    width: 393px;
+  }
+  .icon img{
+  margin-top: 15px;
+  margin-left: 0px;
+  gap: 30px;
+  height: 25px;
+  width: 25px;
+  margin-bottom: 0px;
+}
+.list ul {
+  display: grid;
+  grid-template-columns: repeat(1, auto); 
+  padding-left: 0px;
+}
+.list ul li:hover {
+  background-color: aquamarine;
+  width: 130px;
+}
+
+}
 
