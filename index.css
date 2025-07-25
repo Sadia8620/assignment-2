@@ -283,3 +283,36 @@ list-style: none;
   font-weight: bold;
 }
 
+.part7{
+  display: flex;
+  flex-direction: column;
+  height: 533px;
+  background-image: url(./assets/news-letter-bg.png);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.part7 h1{
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.input input{
+  width: 644px;
+  height: 50px;
+  background-color: #FFFFFF;
+  border: none;
+   padding-left: 20px;
+   margin-right: -5px;
+}
+.input button{
+  height: 50px;
+  width: 186px;
+  color: #FFFFFF;
+  background-color: #E95A08;
+   border: none;
+}
+.input button:hover {
+  background-color: black;
+}
+
