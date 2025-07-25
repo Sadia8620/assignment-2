@@ -154,3 +154,42 @@ list-style: none;
   background-color: gold;
 }
 
+.part4{
+  max-height: 597px;
+  max-width: 1140px;
+  display: flex;
+  padding-top: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+.part4-img img{
+  height: 500px;
+  width: 540px;
+  margin-right: 40px;
+}
+.part4-info{
+  max-width: 540px;
+  max-height: 521px;
+}
+.part4-info img{
+  max-width: 280px;
+  max-height: 280ox;
+  position: absolute;
+  top: 50PX;
+  left: 350PX;
+}
+.part4-info h1{
+  /* padding-left: 50PX; */
+  margin-left: 30px;
+  margin-top: -20px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000000;
+}
+.part4-info ul li{
+  margin-top: -20px;
+  font-size: 1.3rem;
+  color: #727272;
+  padding-left: 20px;
+}
+
