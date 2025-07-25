@@ -316,3 +316,47 @@ list-style: none;
   background-color: black;
 }
 
+footer{
+  display: flex;
+  width: 1120px;
+  height: 248px;
+  margin: 30px auto;
+ }
+ .img-info{
+  width: 359px;
+  height: 179px;
+  margin-right: 50px;
+ }
+ .img-info img{
+  height: 82px;
+  width: 135px;
+ }
+ .img-info p{
+  font-size: 1.25rem;
+  color: #727272;
+  text-align: justify;
+ }
+ .list ul {
+  display: grid;
+  grid-template-columns: repeat(2, auto); 
+  gap: 10px 60px; 
+  padding-top: 30px;
+  margin: 0;
+  list-style: none;
+  padding-right: 30px;
+}
+
+.list ul li {
+  color: #727272;
+}
+.icon img{
+  margin-top: 30px;
+  margin-left: 30px;
+  gap: 10px;
+  height: 29px;
+  width: 29px;
+}
+.list ul li:hover {
+  background-color: aquamarine;
+}
+
